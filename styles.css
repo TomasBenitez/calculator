@@ -1,0 +1,54 @@
+#calc{
+    height: 420px;
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#calc form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#calc input[type=textfield]{
+    width: 97%;
+    height: 50px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#calc .botones input{
+    border-radius: 10%;
+    font-size: 60px;
+    text-align: center;
+    margin: 8.5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(20, 255, 126);
+    color: rgb(2, 3, 0);
+    margin-left: 15px;
+}
+#calc .botones input:hover{
+    background-color: rgb(20, 94, 52);
+    color: white;
+}
+
+.menos{
+    width: 45px;
+}
+
+.divisor{
+    width: 45px;
+    position: relative;
+    
+   
+}
+.x{
+    width: 45px;
+}
+.c{
+    width: 45px;
+}
